@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        * {
+            margin: 0;
+            padding: 0;
+            }
+            #mbajtsiW{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            justify-content: space-evenly;
+            justify-content: space-around;
+            width: 80%;           
+            min-height: 100px;
+            border: solid 1px blue;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .artikulli{
+            display: flex;
+            flex-basis: 150px;
+            height: 80px;
+            font-size: 20px;
+            border: 1px solid red;
+            align-items: center;
+            justify-content: center;
+        }
+        .artikulli:nth-child(3){
+            background-color: cornflowerblue;
+            flex-grow: 0 1 300px;
+            order: -1;
+        }
+        </style>
+    </head>
+<body>
+    <div id="mbajtsiW">
+    <div class="artikulli">
+    <p>boxi 1</p>
+    </div>
+    <div class="artikulli">
+    <p>boxi 2</p>
+    </div>
+    <div class="artikulli">
+    <p>boxi 3</p>
+    </div>
+    <div class="artikulli">
+    <p>boxi 4</p>
+    </div>
+   
+    </div>
+    </div>
+    </body>
+</html>
